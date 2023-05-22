@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #6A5ACD;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteudo{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 400px;
+    border: solid 3px;
+    border-radius: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px;
+    padding: 20px;
+}
+
+.lista-de-alimento, li{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 0 30px;
+
+}
+
+.preco-total{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+}
